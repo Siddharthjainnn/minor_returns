@@ -1,0 +1,104 @@
+ 
+ .carousel-inner  img{
+    height: 13cm;
+    
+ }
+  .card-img-top{ 
+   padding: 5px;
+   height: 277;
+   width: 200; 
+ }
+ .card {
+  width: 9cm;
+   box-shadow: 1px 2px 1px 1px black;
+   transform: scale(0.8);
+   transition: all;
+   transition-duration: 3s;
+ }
+
+ .card:hover {
+   box-shadow: 1px 2px 1px 1px white;
+   transform: scale(1);
+ }
+ 
+
+.fixed-bottom button{
+   width: 6cm;
+}
+
+.col-sm{
+  padding-left: 2px;
+}
+.mr-3{
+  width: 64;
+  height: 64;
+} 
+
+
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ /* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px)
+ { 
+
+
+   .carousel-inner  img
+    {
+    height: 5cm;
+    } 
+    
+     
+     
+   .fixed-bottom button
+   {
+      width: 2.5cm;
+   }
+
+   
+   .card {
+     
+       box-shadow: 1px 2px 1px 1px black;
+       transform: scale(0.8);
+       transition: all;
+       transition-duration: 3s;
+     }
+    
+     .card:hover {
+       box-shadow: 1px 2px 1px 1px white;
+       transform: scale(1);
+     }
+     
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{
+    .carousel-inner  img
+    {
+    height: 13cm;
+     } 
+
+     
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+ { .carousel-inner  img
+    {
+    height: 13cm;
+    } 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{ .carousel-inner  img
+    {
+    height: 13cm;
+    } 
+
+    
+}
